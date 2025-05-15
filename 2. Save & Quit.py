@@ -13,6 +13,7 @@ while True:
     # Display the image
     cv2.imshow('Output', image)
 
+    # Waits for 1 millisecond for a key press
     key = cv2.waitKey(1)
 
     # Press 'q' to quit
